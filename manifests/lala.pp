@@ -1,4 +1,9 @@
-service { 'sshd':
-  ensure => running,
-  enabled => true,
+package { 'vim':
+  ensure => installed,
 }
+
+file { '/tmp/fucking_git':
+  ensure => file,
+  content => "Fuck",
+}
+
