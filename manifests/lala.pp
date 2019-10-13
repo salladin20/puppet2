@@ -1,4 +1,4 @@
 package { 'sshd':
   ensure => installed,
-  enable => true,
+  enabled => true,
 }
